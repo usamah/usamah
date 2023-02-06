@@ -1,184 +1,178 @@
 Currently learning (or learnt):
 ```text
-├── 0_foundations
-│   └── 0_gates
-├── 1_maths
-│   ├── 0_mathematics
-│   ├── 1_linear_algebra
-│   ├── 2_calculus
-│   └── 3_probability
-├── 2_front_end
-│   ├── 0_front_end_languages
-│   │   ├── 0_HTML
-│   │   └── 1_CSS
-│   ├── 1_styles
-│   │   ├── 0_Bootstrap
-│   │   └── 1_Material_UI
-│   └── 2_misc_markup
-│       ├── 0_XML
-│       ├── 1_JSON
-│       └── 2_LaTeX
-├── 3_programming_languages
-│   ├── 0_assembly
-│   ├── 1_c
-│   ├── 2_cpp
-│   │   ├── 0_cpp
-│   │   ├── 1_STL
-│   │   │   ├── 0_containers
-│   │   │   │   ├── 0_sequence_containers
-│   │   │   │   ├── 1_container_adaptors
-│   │   │   │   ├── 2_associative_containers
-│   │   │   │   └── 3_unordered_associative_containers
-│   │   │   ├── 1_input_output
-│   │   │   ├── 2_multi_threading
-│   │   │   └── 3_other
-│   │   │       ├── 0_cpp98
-│   │   │       └── 1_cpp11
-│   │   └── 2_non_STL
-│   ├── 3_python
-│   │   ├── 0_Python_and_standard_library
-│   │   │   ├── 0_python
-│   │   │   ├── asyncio
-│   │   │   ├── calendar
-│   │   │   ├── cmath
-│   │   │   ├── collections
-│   │   │   ├── csv
-│   │   │   ├── datetime
-│   │   │   ├── Decimal
-│   │   │   ├── email
-│   │   │   ├── Fraction
-│   │   │   ├── functools
-│   │   │   ├── glob
-│   │   │   ├── html
-│   │   │   ├── http
-│   │   │   ├── io
-│   │   │   ├── itertools
-│   │   │   ├── json
-│   │   │   ├── Maths
-│   │   │   ├── multiprocesing
-│   │   │   ├── nmap
-│   │   │   ├── os
-│   │   │   ├── pathlib
-│   │   │   ├── pickle
-│   │   │   ├── Random
-│   │   │   ├── re
-│   │   │   ├── socket
-│   │   │   ├── ssl
-│   │   │   ├── statistics
-│   │   │   ├── subprocessing
-│   │   │   ├── threading
-│   │   │   ├── time
-│   │   │   ├── urllib
-│   │   │   ├── uuid
-│   │   │   └── xml
-│   │   ├── 1_package_managers
+├── 00_foundations
+│   └── 00_gates
+├── 01_front_end
+│   ├── 00_front_end_languages
+│   │   ├── 00_HTML
+│   │   └── 01_CSS
+│   ├── 01_styles
+│   │   ├── 00_Bootstrap
+│   │   └── 01_Material_UI
+│   └── 02_misc_markup
+│       ├── 00_XML
+│       ├── 01_JSON
+│       └── 02_LaTeX
+├── 02_programming_languages
+│   ├── 00_assembly
+│   ├── 01_c
+│   ├── 02_cpp
+│   ├── 03_python
+│   │   ├── 00_Python_and_standard_library
+│   │   │   ├── 00_python
+│   │   │   ├── 01_text_processing
+│   │   │   │   └── re
+│   │   │   ├── 02_data_types
+│   │   │   │   ├── calendar
+│   │   │   │   ├── collections
+│   │   │   │   └── datetime
+│   │   │   ├── 03_numerical_and_maths
+│   │   │   │   ├── cmath
+│   │   │   │   ├── Decimal
+│   │   │   │   ├── Fraction
+│   │   │   │   ├── Maths
+│   │   │   │   ├── Random
+│   │   │   │   └── statistics
+│   │   │   ├── 04_functional_programming
+│   │   │   │   ├── functools
+│   │   │   │   └── itertools
+│   │   │   ├── 05_file_and_directory
+│   │   │   │   ├── glob
+│   │   │   │   └── pathlib
+│   │   │   ├── 06_data_persistence
+│   │   │   │   └── pickle
+│   │   │   ├── 07_file_formats
+│   │   │   │   └── csv
+│   │   │   ├── 08_generic_OS
+│   │   │   │   ├── io
+│   │   │   │   ├── os
+│   │   │   │   └── time
+│   │   │   ├── 09_concurrent_execution
+│   │   │   │   ├── multiprocesing
+│   │   │   │   ├── subprocessing
+│   │   │   │   └── threading
+│   │   │   ├── 10_network_and_processing
+│   │   │   │   ├── asyncio
+│   │   │   │   ├── nmap
+│   │   │   │   ├── socket
+│   │   │   │   └── ssl
+│   │   │   ├── 11_internet_data_handling
+│   │   │   │   ├── email
+│   │   │   │   └── json
+│   │   │   ├── 12_structured_markup
+│   │   │   │   ├── html
+│   │   │   │   └── xml
+│   │   │   └── 13_internet_protocol
+│   │   │       ├── http
+│   │   │       ├── urllib
+│   │   │       └── uuid
+│   │   ├── 01_package_managers
 │   │   │   ├── conda
 │   │   │   └── pip
-│   │   ├── 2_machine_learning
-│   │   │   ├── ELI5
-│   │   │   ├── MLFlow
-│   │   │   ├── nltk
-│   │   │   ├── PyTorch
-│   │   │   ├── scikitlearn
-│   │   │   └── Tensorflow
-│   │   ├── 3_maths
-│   │   │   └── Scipy
-│   │   ├── 4_data_processing
-│   │   │   ├── NetworkX
-│   │   │   ├── NumPy
-│   │   │   └── Pandas
-│   │   ├── 5_data_visualisation
-│   │   │   ├── matplotlib
-│   │   │   ├── plotly
-│   │   │   └── Seaborn
-│   │   ├── 6_image_visualisation
-│   │   │   └── OpenCV
-│   │   ├── 7_web
-│   │   │   ├── django
+│   │   ├── 02_machine_learning
+│   │   │   ├── 00_Tensorflow
+│   │   │   ├── 01_PyTorch
+│   │   │   ├── 02_scikitlearn
+│   │   │   ├── 03_nltk
+│   │   │   ├── 04_MLFlow
+│   │   │   └── 05_ELI5
+│   │   ├── 03_maths
+│   │   │   └── 00_Scipy
+│   │   ├── 04_data_processing
+│   │   │   ├── 00_NumPy
+│   │   │   ├── 01_Pandas
+│   │   │   └── 02_NetworkX
+│   │   ├── 05_data_visualisation
+│   │   │   ├── 00_matplotlib
+│   │   │   ├── 01_Seaborn
+│   │   │   └── 02_plotly
+│   │   ├── 06_image_visualisation
+│   │   │   └── 00_OpenCV
+│   │   ├── 07_web
 │   │   │   ├── FastAPI
 │   │   │   ├── flask
 │   │   │   └── hug
-│   │   ├── 8_workflow
-│   │   │   ├── 0_luigi
-│   │   │   └── 1_airflow
-│   │   └── 9_others
+│   │   ├── 08_workflow
+│   │   │   ├── 00_luigi
+│   │   │   └── 01_airflow
+│   │   └── 09_others
 │   │       ├── beautiful_soup
 │   │       ├── pyperclip
 │   │       ├── requests
 │   │       ├── scrapy
 │   │       └── selenium
-│   ├── 4_javascript
-│   │   ├── 0_javascript
-│   │   ├── 1_frameworks
-│   │   │   ├── 0_angular
-│   │   │   ├── 1_reactjs
-│   │   │   ├── 2_vue
-│   │   │   └── 3_jQuery
-│   │   └── 2_nodejs
-│   ├── 5_typescript
-│   ├── 6_csharp
-│   └── 7_swift
-├── 4_database
-│   ├── 0_RDBMS
-│   │   ├── 0_MySQL
-│   │   └── 1_Postgres
-│   ├── 1_NoSQL
-│   │   ├── 0_MongoDB
-│   │   ├── 1_Cassandra
-│   │   └── 1_Redis
-│   ├── 2_Graph
-│   │   ├── 0_Neo4j
-│   │   └── 1_ArangoDB
-│   └── 3_Message_Queue
-│       ├── 0_Kafka
-│       ├── 1_SQS
-│       ├── 2_ZeroMQ
-│       └── 3_RabbitMQ
-├── 5_Network_and_Infrastructure
-│   ├── 0_networking_theory
-│   ├── 1_Nginx
-│   ├── 2_Apache
-│   ├── 3_SSH
-│   ├── 4_RESTful
-│   ├── 5_LAMP
-│   ├── 6_MERN
-│   └── 7_GraphQL
-├── 6_containers_and_virtualisation
-│   ├── 0_Docker
-│   ├── 1_Kubernetes
-│   │   └── 0_Kubeflow
-│   └── 2_vagrant
-├── 7_cloud_&_distributed_systems
-│   ├── 0_cloud
-│   │   ├── 0_Google_Cloud_Platform
-│   │   └── 1_Amazon_Web_Services
-│   └── 1_distributed_systems
-│       ├── 0_apache_hadoop
-│       │   └── 0_azkaban
-│       ├── 1_apache_spark
-│       └── 2_apache_kafka
-├── 8_automation
-│   ├── 0_Ansible
-│   ├── 1_Chef
-│   ├── 3_Jenkins
-│   └── 4_Terraform
-└── 9_data_structures_and_algorithms
-    ├── 0_data_structures
-    └── 1_algorithms
-├── 10_operating_systems
-│   └── 0_Linux
-├── 11_machine_learning
-│   ├── 0_machine_learning
-│   │   ├── 0_supervised_learning
-│   │   ├── 1_unsupervised_learning
-│   │   └── 2_neural_networks
-│   └── 1_books
-├── 12_hacking
-├── 13_cryptography
-├── 14_productivity
-│   ├── 0_Git
-│   ├── 1_methodologies
-│   └── 1_software_development
-│       ├── 0_agile
-│       ├── 1_DevOps
+│   ├── 04_javascript
+│   │   ├── 00_javascript
+│   │   ├── 01_frameworks
+│   │   │   ├── 00_angular
+│   │   │   ├── 01_reactjs
+│   │   │   ├── 02_vue
+│   │   │   └── 03_jQuery
+│   │   └── 02_nodejs
+│   ├── 05_typescript
+│   ├── 06_csharp
+│   └── 07_swift
+├── 03_database
+│   ├── 00_RDBMS
+│   │   ├── 00_MySQL
+│   │   └── 01_Postgres
+│   ├── 01_NoSQL
+│   │   ├── 00_MongoDB
+│   │   ├── 01_Cassandra
+│   │   └── 02_Redis
+│   ├── 02_Graph
+│   │   ├── 00_Neo4j
+│   │   └── 01_ArangoDB
+│   └── 03_Message_Queue
+│       ├── 00_Kafka
+│       ├── 01_SQS
+│       ├── 02_ZeroMQ
+│       └── 03_RabbitMQ
+├── 04_Network_and_Infrastructure
+│   ├── 01_networking_theory
+│   ├── 01_Nginx
+│   ├── 02_Apache
+│   ├── 03_SSH
+│   ├── 04_RESTful
+│   ├── 05_LAMP
+│   ├── 06_MERN
+│   └── 07_GraphQL
+├── 05_containers_and_virtualisation
+│   ├── 00_Docker
+│   ├── 01_Kubernetes
+│   │   └── 00_Kubeflow
+│   └── 02_vagrant
+├── 06_cloud_&_distributed_systems
+│   ├── 00_cloud
+│   │   └── 00_Google_Cloud_Platform
+│   └── 01_distributed_systems
+│       ├── 00_apache_hadoop
+│       │   └── 00_azkaban
+│       ├── 01_apache_spark
+│       └── 02_apache_kafka
+├── 07_automation
+│   ├── 00_Ansible
+│   ├── 01_Chef
+│   ├── 02_Jenkins
+│   └── 03_Terraform
+├── 08_data_structures_and_algorithms
+│   ├── 00_data_structures
+│   └── 01_algorithms
+├── 09_operating_systems
+│   └── 00_Linux
+├── 10_maths_and_machine_learning
+│   ├── 00_maths
+│   │   ├── 00_mathematics
+│   │   ├── 01_linear_algebra
+│   │   ├── 02_calculus
+│   │   └── 03_probability
+│   └── 01_machine_learning
+│       ├── 00_maths_for_deep_learning
+│       └── 01_deep_learning_a_visual_approach
+├── 11_hacking
+│   └── 01_Bug_Bounty_Bootcamp
+├── 12_cryptography
+├── 13_productivity
+│   ├── 00_Git
+│   └── 01_methodologies
 ```
